@@ -18,7 +18,8 @@ La idea es que puedas empezar con una instalacion sencilla y luego crecer a vari
 | [04 - OpenLiteSpeed con MariaDB y WordPress](<04 - OpenLiteSpeed con MariaDB y WordPress.md>) | Instalar OpenLiteSpeed, LS PHP, base de datos y WordPress normal. |
 | [05 - WordPress con Git](<05 - WordPress con Git.md>) | Usar Git para desplegar WordPress, temas o plugins. |
 | [06 - HTTPS global para varios sitios](<06 - HTTPS global para varios sitios.md>) | Configuracion HTTPS reutilizable para agregar nuevos WordPress sin rehacer todo. |
-| [07 - Cloudflare Tunnel y DNS](<07 - Cloudflare Tunnel y DNS.md>) | Publicar sitios sin abrir puertos y usar HTTPS desde Cloudflare. |
+| [07.1 - Cloudflare Tunnel por terminal](<07.1 - Cloudflare Tunnel por terminal.md>) | Metodo con `config.yml`, comandos `cloudflared` y rutas DNS desde terminal. |
+| [07.2 - Cloudflare Tunnel desde el panel](<07.2 - Cloudflare Tunnel desde el panel.md>) | Metodo recomendado si vas a manejar hostnames y servicios desde Cloudflare Zero Trust. |
 | [08 - WordPress Multisite](<08 - WordPress Multisite.md>) | Convertir WordPress en red Multisite con subdominios. |
 | [09 - Redis y cache](<09 - Redis y cache.md>) | Instalar Redis y configurar cache de objetos/pagina. |
 | [10 - Agregar otro WordPress al mismo servidor](<10 - Agregar otro WordPress al mismo servidor.md>) | Crear un segundo sitio reutilizando la configuracion global. |
@@ -109,4 +110,3 @@ comando
 # Para Debian
 comando
 ```
-

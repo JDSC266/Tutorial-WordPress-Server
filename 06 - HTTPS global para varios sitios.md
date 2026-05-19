@@ -33,7 +33,7 @@ Ventajas:
 Sigue:
 
 ```text
-07 - Cloudflare Tunnel y DNS.md
+07.2 - Cloudflare Tunnel desde el panel.md
 ```
 
 ### Opcion B: HTTPS directo en el servidor
@@ -581,4 +581,3 @@ Para otro dominio debes crear otro certificado y otro snippet, por ejemplo:
 ```
 
 En OpenLiteSpeed puedes crear otro listener seguro o configurar certificados por Virtual Host si mezclas muchos dominios distintos.
-
