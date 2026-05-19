@@ -72,6 +72,13 @@ Ventajas:
 
 La guia [06 - HTTPS global para varios sitios](<06 - HTTPS global para varios sitios.md>) explica las dos.
 
+## Ventajas y Desventajas
+
+| Aspecto | **Cloudflare Tunnel** | **Conexión directa** |
+|---|---|---|
+| **Ventajas** | - No necesitas abrir puertos en el router o firewall. <br> - Oculta la IP pública del servidor. <br> - Añade protección de Cloudflare, como filtros, reglas y mitigación DDoS. <br> - Facilita publicar servicios internos de forma más segura. | - Configuración más simple en algunos casos. <br> - No dependes de un intermediario externo para acceder al servicio. <br> - Puede tener menor latencia si la ruta de red es directa. <br> - Tienes control total sobre el tráfico y la infraestructura. |
+| **Desventajas** | - Dependencia de Cloudflare: si falla o cambian condiciones, puede afectar el acceso. <br> - Puede añadir algo de latencia. <br> - Requiere configurar y mantener el túnel. <br> - Algunas funciones avanzadas pueden depender del plan contratado. | - Necesitas abrir puertos y exponer el servidor a internet. <br> - La IP pública puede quedar visible. <br> - Requiere más cuidado con firewall, certificados, ataques y actualizaciones. <br> - Puede ser más difícil de proteger frente a escaneos o ataques directos. |
+
 ---
 
 ## Estructura recomendada del servidor
